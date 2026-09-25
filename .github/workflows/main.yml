@@ -16,7 +16,7 @@ jobs:
         with:
           kernel-url: https://github.com/xwxqwqpwpawa/kernel_xiaomi_raphael
           kernel-branch: cnb
-          config: raphael_defconfig
+          config: vendor/xiaomi/raphael.config
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
